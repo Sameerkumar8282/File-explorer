@@ -1,11 +1,13 @@
 import React from 'react'
+import Explorer from './components/Explorer'
+import { DATA } from './constants/data'
 
 const App = () => {
   return (
     <div>
-      <h1 className='bg-black'>hshabs</h1>
+      <Explorer data={DATA}/>
     </div>
   )
 }
 
-export default App
+export default App 
